@@ -44,6 +44,12 @@ A passenger can reserve ticket, view ticket fare and view train details by searc
 		The railway database is used to know the total details and information about the train and the tickets reserved by the passengers. So, if the user wants to reserve the train ticket then he should first fill the form and select the dates and timing of the train along with the place. So, if the seats are available then the administrator will issue ticket and the bill should be paid by using credit/debit card. So, the passenger can also cancel the reserved ticket whenever he wants.
 Class diagram for Online Railway Ticket Reservation 
 Sequence diagram for Online Railway Ticket Reservation
+
+
+swagger-ui 
+http://localhost:8001/swagger-ui/index.html#/train-controller/findByDest
+http://localhost:8084/swagger-ui/index.html#/booking-controller/viewbookingbyTid
+
  
 
 
