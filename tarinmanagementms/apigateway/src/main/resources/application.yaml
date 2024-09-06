@@ -1,0 +1,23 @@
+spring:
+    application:
+        name:
+            apigatewayzull
+server:
+    port:8080
+
+zuul:
+    routes:
+        train-management-microservice:
+            url:
+                http://localhost:8081
+        admin-management-microservice:
+            url:
+                http://localhost:8082
+        user-management-microservice:
+            url:
+                http://localhost:8083
+
+
+
+
+
